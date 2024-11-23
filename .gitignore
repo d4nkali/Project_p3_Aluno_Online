@@ -29,9 +29,3 @@ lib/
 
 ### Mac OS ###
 .DS_Store
-
-# Ignorar arquivos de texto
-
-*.pdf
-*.doc
-*.docx

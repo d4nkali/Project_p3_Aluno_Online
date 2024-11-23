@@ -10,3 +10,7 @@
 *.java eol=lf
 *.md eol=lf
 *.txt eol=lf
+api/mvnw text eol=lf
+
+# Convertendo para crlf
+*.cmd text eol=crlf
