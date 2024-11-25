@@ -1,10 +1,10 @@
-# Projeto Aluno Online - p3
+# Projeto Aluno Online
 
 Projeto Aluno Online feito no período da matéria de Tecnologias para Back End.
 
-## API Aluno Online
+## API Aluno Online - Geral
 
-Projeto de uma **API** *RESTful* feito no ecossistema *Spring* com o objetivo de gerenciar o cadastro de alunos, cadastro dos professores, gerenciamento das matérias, e gerenciamento das matriculas dos alunos usando a arquitetura **MVC** (Model-View-Controller).
+Projeto de uma **API** *RESTful* feito no ecossistema *Spring* com o objetivo de gerenciar o cadastro de alunos, cadastro dos professores, gerenciamento das matérias, e gerenciamento das matriculas dos alunos usando a arquitetura **MVC** (Model-View-Controller) oferecendo a separação clara entre interface, lógica de negócios e acesso a dados.
 
 ## Módulos Usados
 
@@ -16,12 +16,13 @@ Projeto de uma **API** *RESTful* feito no ecossistema *Spring* com o objetivo de
 
 ## Ferramentas e Tecnologias Usadas
 
-- Linguagem **Java** com Framework *Spring*.
-- Gerenciador de dependências com **Apache Maven**.
+- Linguagem **Java** 17 com Framework *Spring*.
+- Gerenciador de dependências com **Maven**.
 - Banco de Dados **PostgreSQL**.
 - Ferramenta de Teste de *Endpoint* **Insomnia**.
 - IDE **Intellij IDEA** e Editor de Código **Visual Studio Code**.
 - Software Gerenciamento de Bancos **Dbeaver**.
+- Padronizador de Código **EditorConfig**.
 
 ## Estrutura do Projeto
 
@@ -39,7 +40,7 @@ O *repository* define a interface para interagir com os dados que o *service* fo
 
 ### 4. *Service*
 
-O *service* contem as regras de negócios do repositório.
+O *service* contem as regras de negócios do repositório atuando de intermediário entre o *controller* e o *repository*.
 
 ## Informações sobre o Banco:
 
@@ -49,3 +50,9 @@ O *service* contem as regras de negócios do repositório.
 - Database: `projeto_aluno_online`.
 - Tabelas: 
   - Aluno.
+
+## Documentação Detalhada
+
+Para mais informações detalhadas sobre os módulos **Aluno**, incluindo sua estrutura e métodos, consulte os arquivos: 
+
+- [Aluno.md](documentation/Aluno.md).
