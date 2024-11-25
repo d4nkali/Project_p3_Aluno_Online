@@ -46,7 +46,8 @@ public class AlunoService {
 
 	}
 
-		public void atualizarAlunoPorID(Long id, Aluno aluno) {
+	//* Método para atualizar um aluno pelo id no banco
+	public void atualizarAlunoPorID(Long id, Aluno aluno) {
 
 		//* Verificar se existe no Banco de Dados
 		Optional<Aluno> alunoDoBancoDeDados = buscarAlunoPorId(id);

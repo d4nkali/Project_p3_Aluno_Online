@@ -47,6 +47,7 @@ public class ProfessorService {
 
 	}
 
+	//* Método para atualizar professor pelo Id
 	public void atualizarProfessorPorID(Long id, Professor professor) {
 
 		//* Verificar se existe no Banco de Dados
