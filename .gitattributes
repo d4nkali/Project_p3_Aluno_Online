@@ -1,9 +1,6 @@
-# Colocando sql como linguagem no github
+# Colocando sql como linguagem no GitHub
 *.sql linguist-detectable=true
 *.sql linguist-language=sql
-
-# Ignorando shel na contagem de script
-*.sh linguist-vendored
 
 # Convertendo para lf
 *.sql eol=lf
