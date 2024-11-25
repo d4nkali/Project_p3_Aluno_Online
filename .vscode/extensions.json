@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "vscjava.vscode-java-pack",
+        "editorconfig.editorconfig",
+        "aaron-bond.better-comments",
+        "usernamehw.errorlens",
+        "mhutchie.git-graph",
+        "github.vscode-pull-request-github",
+        "oderwat.indent-rainbow",
+        "pkief.material-icon-theme",
+        "natqe.reload",
+        "vmware.vscode-boot-dev-pack",
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-pg"
+    ]
+}
