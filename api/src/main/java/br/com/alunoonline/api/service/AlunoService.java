@@ -58,6 +58,8 @@ public class AlunoService {
 
 		}
 
+		//* Se chegar aqui quer dizer que existe o aluno, então:
+
 		Aluno alunoEditado = alunoDoBancoDeDados.get();
 
 		// Com esse aluno editado de cima, faço os sets necessários para atualizar os atributos
