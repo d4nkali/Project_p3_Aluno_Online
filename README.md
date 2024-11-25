@@ -48,4 +48,4 @@ O *service* contem as regras de negócios do repositório.
 - URL: [jdbc:postgresql://localhost:5432/projeto_aluno_online](jdbc:postgresql://localhost:5432/projeto_aluno_online).
 - Database: `projeto_aluno_online`.
 - Tabelas: 
-    - Aluno.
+  - Aluno.
