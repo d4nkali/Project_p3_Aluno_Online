@@ -51,4 +51,12 @@ public class AlunoController {
 
 	}
 
+	@PutMapping("/{id}") // Mapeia para usar o método Put
+	@ResponseStatus(HttpStatus.NO_CONTENT)
+	public void atualizarAlunoPorID(@PathVariable Long id, @RequestBody Aluno aluno) {
+
+		alunoService.atualizarAlunoPorID(id, aluno);
+
+	}
+
 }
