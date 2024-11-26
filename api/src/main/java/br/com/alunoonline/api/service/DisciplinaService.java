@@ -25,6 +25,14 @@ public class DisciplinaService {
 
 	}
 
+	//* Método para listar as disciplinas ligadas pelo id de um professor
+	public List<Disciplina> listarDisciplinasDoProf(Long professoId) {
+
+		return disciplinaRepository.findByProfessorId(professoId);
+
+	}
+
+
 	//* Método para listar todas as disciplinas do banco
 	public List<Disciplina> listarTodosDisciplinas() {
 
