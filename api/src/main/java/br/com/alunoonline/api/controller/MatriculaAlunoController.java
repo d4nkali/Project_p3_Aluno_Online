@@ -1,6 +1,7 @@
 package br.com.alunoonline.api.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.http.HttpStatus;
 
 import br.com.alunoonline.api.dtos.AtualizarNotasRequest;
+import br.com.alunoonline.api.dtos.HistoricoAlunoResponse;
 import br.com.alunoonline.api.model.MatriculaAluno;
 import br.com.alunoonline.api.service.MatriculaAlunoService;
 
@@ -43,6 +45,14 @@ public class MatriculaAlunoController {
 	@PathVariable Long id){
 
 		matriculaAlunoService.atualizarNotas(id, atualizarNotasRequest);
+
+	}
+
+	@GetMapping("/emitir-historico/{alunoId}")
+	@ResponseStatus(HttpStatus.OK)
+	public HistoricoAlunoResponse emitirHistorico(@PathVariable Long alunoId) {
+
+		return matriculaAlunoService.emitirHistorico(alunoId);
 
 	}
 
